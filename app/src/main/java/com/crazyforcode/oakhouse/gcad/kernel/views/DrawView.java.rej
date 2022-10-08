@@ -1,0 +1,79 @@
+diff a/app/src/main/java/com/crazyforcode/oakhouse/gcad/Kernel/Views/DrawView.java b/app/src/main/java/com/crazyforcode/oakhouse/gcad/Kernel/Views/DrawView.java	(rejected hunks)
+@@ -123,6 +123,77 @@
+ 
+         switch (event.getAction()) {
+             case MotionEvent.ACTION_UP:
++                if(MainActivity.isDrawing) {
++                    if(painterCurrent != null) {
++                        if (!(painterCurrent instanceof PointObject)) {//line/area
++                            Log.i("add point", "ACTION_UP");
++                            if(painterCurrent.curve != null) {//曲线
++                                if (painterCurrent.isHead()) {//头
++                                    painterCurrent.setAsHead(false);
++                                    painterCurrent.curve.setAsSecond(true);
++                                    float x = event.getX(),
++                                            y = event.getY();
++
++                                    painterCurrent.curve.addOneSideBezier(x, y, true);
++                                    painterCurrent.curve.addOneSideBezier(x, y, false);
++                                    pathMain.moveTo(x, y);
++                                    pathCache.set(pathMain);
++                                } else {
++                                    pathMain.set(pathCache);
++                                    float x1 = event.getX(),
++                                            y1 = event.getY(),
++                                            x2 = (float) painterCurrent.points.get(painterCurrent.points.size() - 1).getX(),
++                                            y2 = (float) painterCurrent.points.get(painterCurrent.points.size() - 1).getY(),
++                                            //len = Math.sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2)),
++                                            dx = (x1 - x2) / 4,//cubic控制杆设为拉出来的新路径的1/4
++                                            dy = (y1 - y2) / 4;
++
++                                    painterCurrent.curve.editOneSideBezier (x2 + dx, y2 + dy, true);//from side
++                                    painterCurrent.curve.editOneSideBezier (x2 - dx, y2 - dy, false);//to side
++                                    painterCurrent.curve.addOneSideBezier(x1 - dx, y1 - dy, false);//to side
++                                    painterCurrent.curve.addOneSideBezier(x1 + dx, y1 + dy, true);//from side
++
++                                    if (!painterCurrent.curve.isSecond()) {//不是第二个点才做
++                                        pathMain.cubicTo((float) painterCurrent.curve.bezierF.get(painterCurrent.points.size() - 2).getX(),
++                                                (float) painterCurrent.curve.bezierF.get(painterCurrent.points.size() - 2).getY(),
++                                                x2 - dx, y2 - dy, x2, y2);
++                                    } else {
++                                        painterCurrent.curve.setAsSecond(false);
++                                    }
++                                    pathCache.set(pathMain);
++                                    pathMain.lineTo(x1, y1);
++                                }
++                            } else {//直线
++                                if (painterCurrent.isHead()) {
++                                    painterCurrent.setAsHead(false);
++
++                                    pathMain.moveTo(event.getX(), event.getY());
++                                    //pathAuxiliary.moveTo(event.getX(), event.getY());
++                                    //painterCurrent.addPoint(new AccuratePoint(-1.0, -1.0));
++                                    painterCurrent.addPoint(new AccuratePoint(event.getX(), event.getY()));
++                                } else {
++                                    painterCurrent.addPoint(new AccuratePoint(event.getX(), event.getY()));
++                                    pathMain.lineTo(event.getX(), event.getY());
++                                    pathCache.set(pathMain);
++                                    //pathAuxiliary.lineTo(event.getX(), event.getY());
++                                /*int index = ((LineObject)painterCurrent).bezierL.size()-1;
++                                pathAuxiliary.rCubicTo((float)(((LineObject)painterCurrent).bezierL.get(index).getX()),
++                                        (float)(((LineObject)painterCurrent).bezierL.get(index).getY()),
++                                        (float)(((LineObject)painterCurrent).bezierR.get(index).getX()),
++                                        (float)(((LineObject)painterCurrent).bezierL.get(index).getY()),
++                                        event.getX(), event.getY());
++                                Log.i("rcubic", "over");//曲线绘制，未写完*/
++                                }
++                            }//直线/曲线
++                        } else {//点直接绘
++                            //draw();//pathMain.moveTo(event.getX(), event.getY());//pointObject dont have path
++                        }
++
++                        painterCurrent.points.add(new AccuratePoint(event.getX(), event.getY()));
++                    }
++                    movingDraw(-5, -5);//draw();
++                }
++
+                 if(!drawingPause) {
+                     double x = event.getX();
+                     double y = event.getY();

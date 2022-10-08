@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/appcompat_activity_width"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/legend_picker_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_weight="1"
+        android:id="@+id/legend_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <!--<CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="曲线绘制"
+        android:textSize="16dp"
+        android:id="@+id/is_curl_but"
+        android:layout_gravity="right"
+        android:checked="false" />-->
+    <!--<com.crazyforcode.oakhouse.gcad.Others.Components.DrawTypeRadio
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/typeChooser" />-->
+
+    <com.crazyforcode.oakhouse.gcad.others.components.DrawTypePickerLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#F1F1F1"
+        android:id="@+id/drawTypePicker"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/legend_cancel"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:background="#F1F1F1"
+            android:text="@string/cancel_ch"
+            android:letterSpacing="1"/>
+        <Button
+            android:id="@+id/legend_commit"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/theme_color_primary"
+            android:text="@string/confirm_ch"
+            android:letterSpacing="1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_color_primary</item>
+        <item name="colorPrimaryDark">@color/theme_color_primary_dark</item>
+        <item name="colorAccent">@color/theme_color_accent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/AppTheme.actionModeStyle</item>
+    </style>
+
+    <style name="AppTheme.actionModeStyle" parent="@style/Base.Widget.AppCompat.ActionMode">
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="AppcompatDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">#03A9F4</item>
+        <item name="colorPrimaryDark">#039BE5</item>
+        <item name="colorAccent">#81D4FA</item>
+    </style>
+
+    <style name="DialogNoAnimation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.crazyforcode.oakhouse.gcad.others.components.LegendTileView
+        android:id="@+id/legend4view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/legend401ima"
+            android:contentDescription="401"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend402ima"
+            android:contentDescription="402"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend403ima"
+            android:contentDescription="403"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend404ima"
+            android:contentDescription="404"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend405ima"
+            android:contentDescription="405"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend406ima"
+            android:contentDescription="406"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend407ima"
+            android:contentDescription="407"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend408ima"
+            android:contentDescription="408"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend409ima"
+            android:contentDescription="409"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+
+    </com.crazyforcode.oakhouse.gcad.others.components.LegendTileView>
+
+
+</LinearLayout>

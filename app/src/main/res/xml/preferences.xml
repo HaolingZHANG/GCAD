@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="通用设置"
+        android:key="currency">
+
+        <Preference
+            android:key="light"
+            android:title="屏幕亮度"
+            android:summary="调节屏幕亮度以便搭建良好绘图环境" />
+
+        <Preference
+            android:key="search_all"
+            android:title="查看工程"
+            android:summary="查看所有工程名称、数目及对象个数统计" />
+
+        <Preference
+            android:key="reset"
+            android:title="还原配置"
+            android:summary="还原到第一次使用程序时的系统配置" />
+
+        <Preference
+            android:key="export"
+            android:title="导出位置"
+            android:summary="确定成图导出的文件位置以便查找" />
+
+        <Preference
+            android:key="printer"
+            android:title="打印服务"
+            android:summary="导出成图后进行WIFI打印（需安装打印服务）" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="指北设置"
+        android:key="compass">
+
+        <Preference
+            android:key="direction"
+            android:title="方向校准"
+            android:summary="让指北针正北方向与实际正北方向平行" />
+
+        <Preference
+            android:key="accuracy"
+            android:title="精度更改"
+            android:summary="更改指北针精度以适应当前绘图" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="外设设置"
+        android:key="external">
+
+        <Preference
+            android:key="locking"
+            android:title="本机锁定"
+            android:summary="锁定该手机外设" />
+
+        <Preference
+            android:key="choose_again"
+            android:title="重选外设"
+            android:summary="重新选择外设并连接" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="用户手册"
+        android:key="user_manual">
+
+        <Preference
+            android:key="comparision"
+            android:title="规范查看"
+            android:summary="解释所有图例及其对应名称" />
+
+        <CheckBoxPreference
+            android:key="novice"
+            android:title="新手提示"
+            android:summary="对每次操作进行提示"
+            android:defaultValue="true" />
+
+        <Preference
+            android:key="function_profile"
+            android:title="功能简介"
+            android:summary="对GCAD的功能进行简要描述" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="其他相关"
+        android:key="about">
+
+        <Preference
+            android:key="feedback"
+            android:title="支持反馈"
+            android:summary="对GCAD的评价和问题阐释" />
+
+        <Preference
+            android:key="privacy_policy"
+            android:title="隐私条款"
+            android:summary="简述基本条款、一般条款和版权" />
+
+        <Preference
+            android:key="about_us"
+            android:title="关于我们"
+            android:summary="简述制作者和唯一软件代理商" />
+    </PreferenceCategory>
+</PreferenceScreen>

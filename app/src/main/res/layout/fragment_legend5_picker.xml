@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.crazyforcode.oakhouse.gcad.others.components.LegendTileView
+        android:id="@+id/legend5view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/legend501ima"
+            android:contentDescription="501"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend502ima"
+            android:contentDescription="502"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend503ima"
+            android:contentDescription="503"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend504ima"
+            android:contentDescription="504"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend505ima"
+            android:contentDescription="505"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+
+        <ImageView
+            android:id="@+id/legend506ima"
+            android:contentDescription="506"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend507ima"
+            android:contentDescription="507"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend508ima"
+            android:contentDescription="508"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend509ima"
+            android:contentDescription="509"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend510ima"
+            android:contentDescription="510"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend511ima"
+            android:contentDescription="511"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend512ima"
+            android:contentDescription="512"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend513ima"
+            android:contentDescription="513"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend514ima"
+            android:contentDescription="514"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend515ima"
+            android:contentDescription="515"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+
+        <ImageView
+            android:id="@+id/legend516ima"
+            android:contentDescription="516"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend517ima"
+            android:contentDescription="517"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend518ima"
+            android:contentDescription="518"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend519ima"
+            android:contentDescription="519"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend520ima"
+            android:contentDescription="520"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend521ima"
+            android:contentDescription="521"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend522ima"
+            android:contentDescription="522"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend523ima"
+            android:contentDescription="523"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend524ima"
+            android:contentDescription="524"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/legend525ima"
+            android:contentDescription="525"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+
+        <ImageView
+            android:id="@+id/legend526ima"
+            android:contentDescription="526"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+
+        <ImageView
+            android:id="@+id/legend527ima"
+            android:contentDescription="527"
+            android:background="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/legend_picker_img_width"
+            android:layout_height="@dimen/legend_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+
+    </com.crazyforcode.oakhouse.gcad.others.components.LegendTileView>
+
+
+</LinearLayout>

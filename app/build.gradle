@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.crazyforcode.oakhouse.gcad"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions.encoding = 'UTF-8'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleDependency
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    //noinspection GradleDependency
+    compile 'com.android.support:design:23.0.1'
+    //noinspection GradleDependency
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    //noinspection GradleDependency
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'net.rdrei.android.dirchooser:library:3.2@aar'
+    compile files('src/main/libs/CommonsImaging1.0.jar')
+    compile files('src/main/libs/option-1.3.jar')
+    compile files('src/main/libs/frescolib.jar')
+}

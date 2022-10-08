@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="240dp"
+        android:background="@drawable/e_switch_none"
+        android:id="@+id/edit_switch" />
+
+    <LinearLayout
+        android:layout_width="48dp"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit0"
+            android:background="@drawable/e0_selector" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit1"
+            android:background="@drawable/e1_selector" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit2"
+            android:background="@drawable/e2_selector" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit3"
+            android:background="@drawable/e3_selector" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit4"
+            android:background="@drawable/e4_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="48dp"
+        android:layout_height="240dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit5"
+            android:background="@drawable/e5_selector" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit6"
+            android:background="@drawable/e6_selector"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/edit7"
+            android:background="@drawable/e7_selector" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit8"
+            android:background="@drawable/e8_selector"/>
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/edit9"
+            android:background="@drawable/e9_selector"/>
+    </LinearLayout>
+
+</LinearLayout>

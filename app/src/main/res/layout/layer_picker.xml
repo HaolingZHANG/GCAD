@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="240dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layer_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/map_img"
+            android:contentDescription="@string/map_ch"
+            android:src="@mipmap/layer_picker_template_dark"
+            android:layout_width="@dimen/layer_picker_img_width"
+            android:layout_height="@dimen/layer_picker_img_width"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layer_vegetation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/vegetation_img"
+            android:contentDescription="@string/vegetation_ch"
+            android:layout_width="@dimen/layer_picker_img_width"
+            android:layout_height="@dimen/layer_picker_img_width"
+            android:src="@mipmap/layer_picker_vegetation_dark"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layer_geologic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/geologic_img"
+            android:contentDescription="@string/geologic_ch"
+            android:layout_width="@dimen/layer_picker_img_width"
+            android:layout_height="@dimen/layer_picker_img_width"
+            android:src="@mipmap/layer_picker_terrain_dark"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layer_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/water_img"
+            android:contentDescription="@string/water_ch"
+            android:layout_width="@dimen/layer_picker_img_width"
+            android:layout_height="@dimen/layer_picker_img_width"
+            android:src="@mipmap/layer_picker_water_dark"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layer_struct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/struct_img"
+            android:src="@mipmap/layer_picker_construction_dark"
+            android:contentDescription="@string/struct_ch"
+            android:layout_width="@dimen/layer_picker_img_width"
+            android:layout_height="@dimen/layer_picker_img_width"/>
+    </FrameLayout>
+</LinearLayout>

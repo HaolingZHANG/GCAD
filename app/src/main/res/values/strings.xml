@@ -1,0 +1,347 @@
+<resources>
+    <string name="app_name">GCAD</string>
+    <string name="app_name_full">Geography Collect Aided Design</string>
+    <string name="action_search">搜索外设</string>
+    <string name="action_synchronization">多人协同</string>
+    <string name="action_export">导出成图</string>
+    <string name="action_comparision">绘图对应表</string>
+    <string name="action_settings">设置</string>
+    <string name="action_save">保存</string>
+    <string name="action_exit">退出</string>
+    <string name="legend_picker_title">图例选择</string>
+    <string name="confirm_ch">确认</string>
+    <string name="cancel_ch">取消</string>
+    <string name="create_project">新建工程</string>
+    <string name="draw_type_0">直线绘制</string>
+    <string name="draw_type_1">曲线绘制</string>
+    <string name="draw_type_2">自由线绘制</string>
+    <string name="model_init">底图初始化</string>
+    <string name="next_step">下一步 ></string>
+    <string name="click_to_add_map">点击添加底图</string>
+    <string name="directory_chooser">文件路径选择</string>
+
+    <string name="item_title">This is a Project</string>
+    <string name="item_content_description">缩略图</string>
+    <string name="feedback_content_hint">请写入您宝贵的意见，500字以内。</string>
+
+
+    <string name="map_ch">底图</string>
+    <string name="water_ch">水体</string>
+    <string name="struct_ch">建筑</string>
+    <string name="geologic_ch">地质</string>
+    <string name="vegetation_ch">植被</string>
+    <!--
+        Here are 84 different signs to draw in the panel.
+
+        6 different types include
+        terrain or landform、
+        Wave series、
+        vegetation、
+        Rock or stone、
+        Artificial characteristic object、
+        and Technology sign.
+    -->
+
+    <!--terrain or landform  地形地貌：15 signs-->
+
+    <!--等高线-->
+    <string name="CONTOUR_LINE">101</string>
+    <string name="s101">等高线</string>
+    <!--计曲线-->
+    <string name="PLAN_CURVE">102</string>
+    <string name="s102">计曲线</string>
+    <!--等高线注记-->
+    <string name="CONTOUR_LINE_NOTE">103</string>
+    <string name="s103">等高线注记</string>
+    <!--辅助等高线-->
+    <string name="AUXILIARY_CONTOUR_LINE">104</string>
+    <string name="s104">辅助等高线</string>
+    <!--土崖、土坎-->
+    <string name="LAND_BANK">105</string>
+    <string name="s105">土崖、土坎</string>
+    <!--小土墙、 土垣-->
+    <string name="LAND_WALL">106</string>
+    <string name="s106">小土墙、 土垣</string>
+    <!--冲沟-->
+    <string name="SCOUR_GULLY">107</string>
+    <string name="s107">冲沟</string>
+    <!--小冲沟-->
+    <string name="SMALL_SCOUR_GULLY">108</string>
+    <string name="s108">小冲沟</string>
+    <!--洼地-->
+    <string name="DEPRESSION">109</string>
+    <string name="s109">洼地</string>
+    <!--丘-->
+    <string name="MASSIF">110</string>
+    <string name="s110">丘</string>
+    <!--小洼地-->
+    <string name="SMALL_DEPRESSION">111</string>
+    <string name="s111">小洼地</string>
+    <!--土坑-->
+    <string name="PIT">112</string>
+    <string name="s112">土坑</string>
+    <!--土堆-->
+    <string name="HOLLOW_LAND">113</string>
+    <string name="s113">土堆</string>
+    <!--长土堆-->
+    <string name="LONG_HOLLOW_LAND">114</string>
+    <string name="s114">长土堆</string>
+    <!--自定义明显特征物体-->
+    <string name="CUSTOM_OBVIOUS_CHARACTERISTIC_OBJECT">110</string>
+    <string name="s115">自定义明显特征物体</string>
+
+    <!--Wave series 水系： 9 signs-->
+
+    <!--不可通行水体-->
+    <string name="IMPASSABILITY_WAVE">201</string>
+    <string name="s201">不可通行水体</string>
+    <!--可通行水体-->
+    <string name="PASSABILITY_WAVE">202</string>
+    <string name="s202">可通行水体</string>
+    <!--不可通行湿地-->
+    <string name="IMPASSABILITY_WET_LAND">203</string>
+    <string name="s203">不可通行湿地</string>
+    <!--水道-->
+    <string name="WATER_CHANNEL">204</string>
+    <string name="s204">水道</string>
+    <!--季节性水道-->
+    <string name="SEASONAL_WATER_CHANNEL">205</string>
+    <string name="s205">季节性水道</string>
+    <!--泉、井-->
+    <string name="SPRING">206</string>
+    <string name="s206">泉、井</string>
+    <!--水源-->
+    <string name="WATER_SOURCE">207</string>
+    <string name="s207">水源</string>
+    <!--水坑-->
+    <string name="PUDDLE">208</string>
+    <string name="s208">水坑</string>
+    <!--特殊水体-->
+    <string name="SPECIAL_WAVE">209</string>
+    <string name="s209">特殊水体</string>
+
+    <!--vegetation 植被：18 signs-->
+
+    <!--空旷地-->
+    <string name="CLEAR_LAND">301</string>
+    <string name="s301">空旷地</string>
+    <!--稀树空旷地-->
+    <string name="RARE_TREE_CLEAR_LAND">302</string>
+    <string name="s302">稀树空旷地</string>
+    <!--凌乱空旷地-->
+    <string name="MESSY_CLEAR_LAND">303</string>
+    <string name="s303">凌乱空旷地</string>
+    <!--稀树凌乱空旷地-->
+    <string name="RARE_TREE_ANDMESSY_CLEAR_LAND">304</string>
+    <string name="s304">稀树凌乱空旷地</string>
+    <!--易跑树林-->
+    <string name="EASY_RUN_WOODS">305</string>
+    <string name="s305">易跑树林</string>
+    <!--慢跑树林-->
+    <string name="JOGGING_WOODS">306</string>
+    <string name="s306">慢跑树林</string>
+    <!--慢跑矮树林-->
+    <string name="JOGGING_SHORT_WOODS">307</string>
+    <string name="s307">慢跑矮树林</string>
+    <!--慢行树林-->
+    <string name="GO_SLOW_WOODS">308</string>
+    <string name="s308">慢行树林</string>
+    <!--慢行矮树林-->
+    <string name="GO_SLOW_SHORT_WOODS">309</string>
+    <string name="s309">慢行矮树林</string>
+    <!--难通行树林-->
+    <string name="DIFFICULT_CURRENT_WOODS">310</string>
+    <string name="s310">难通行树林</string>
+    <!--不可通行树林-->
+    <string name="CANNOT_CURRENT_WOODS">311</string>
+    <string name="s311">不可通行树林</string>
+    <!--单向可跑树林-->
+    <string name="ONE_WAY_CAN_RUN_WOODS">312</string>
+    <string name="s312">单向可跑树林</string>
+    <!--单向可跑果林-->
+    <string name="ONE_WAY_CAN_RUN_FRUIT_BEARING_FOREST">313</string>
+    <string name="s313">单向可跑果林</string>
+    <!--果林-->
+    <string name="FRUIT_BEARING_FOOREST">314</string>
+    <string name="s314">果林</string>
+    <!--耕地-->
+    <string name="PLOUGH">315</string>
+    <string name="s315">耕地</string>
+    <!--独立矮树丛-->
+    <string name="INDEPENDENT_TREE">316</string>
+    <string name="s316">独立矮树丛</string>
+    <!--突出树-->
+    <string name="PROMINENT_TREE">317</string>
+    <string name="s317">突出树</string>
+    <!--未定义特殊植被-->
+    <string name="EXTRUDE_TREE">318</string>
+    <string name="s318">未定义特殊植被</string>
+
+    <!--Rock or stone 岩石与石块：9 signs-->
+
+    <!--不可通过陡崖-->
+    <string name="CANNOT_CURRENT_RLINT">401</string>
+    <string name="s401">不可通过陡崖</string>
+    <!--可通过石崖-->
+    <string name="CAN_CURRENT_RLINT">402</string>
+    <string name="s402">可通过石崖</string>
+    <!--巨岩、 岩柱-->
+    <string name="HUGE_ROCK">403</string>
+    <string name="s403">巨岩、 岩柱</string>
+    <!--岩坑、 山洞-->
+    <string name="CAVE">404</string>
+    <string name="s404">岩坑、 山洞</string>
+    <!--巨石-->
+    <string name="HUGE_STONE">405</string>
+    <string name="s405">巨石</string>
+    <!--大石-->
+    <string name="BIG_STONE">406</string>
+    <string name="s406">大石</string>
+    <!--石块地-->
+    <string name="STONE_LAND">407</string>
+    <string name="s407">石块地</string>
+    <!--沙地-->
+    <string name="SANDY">408</string>
+    <string name="s408">沙地</string>
+    <!--石坪-->
+    <string name="STONE_PLATFROM">409</string>
+    <string name="s409">石坪</string>
+
+    <!--Artificial characteristic object 人造特征物：27 signs-->
+
+    <!--铺筑道路-->
+    <string name="PAVING_ROAD">501</string>
+    <string name="s501">铺筑道路</string>
+    <!--无铺筑道路-->
+    <string name="NON_PAVING_ROAD">502</string>
+    <string name="s502">无铺筑道路</string>
+    <!--小路-->
+    <string name="FOOTPART">503</string>
+    <string name="s503">小路</string>
+    <!--窄林道-->
+    <string name="NARROW_FOREST_ROAD">504</string>
+    <string name="s504">窄林道</string>
+    <!--桥-->
+    <string name="BRIDGE">505</string>
+    <string name="s505">桥</string>
+    <!--隧道-->
+    <string name="TUNNEL">506</string>
+    <string name="s506">隧道</string>
+    <!--铁路-->
+    <string name="RAILWAY">507</string>
+    <string name="s507">铁路</string>
+    <!--轨道-->
+    <string name="TRACK">508</string>
+    <string name="s508">轨道</string>
+    <!--辅电路-->
+    <string name="POWER_LINE">509</string>
+    <string name="s509">辅电路</string>
+    <!--高压辅电路-->
+    <string name="HIGH_PRESSURE_POWER_LINE">510</string>
+    <string name="s510">高压辅电路</string>
+    <!--不可翻越围墙-->
+    <string name="CANNOT_CURRENT_WALL">511</string>
+    <string name="s511">不可翻越围墙</string>
+    <!--可翻越围墙-->
+    <string name="CAN_CURRENT_WALL">512</string>
+    <string name="s512">可翻越围墙</string>
+    <!--不可跨越围栏-->
+    <string name="CANNOT_CURRENT_RAIL">513</string>
+    <string name="s513">不可跨越围栏</string>
+    <!--可跨越围栏-->
+    <string name="CAN_CURRENT_RAIL">514</string>
+    <string name="s514">可跨越围栏</string>
+    <!--不可通行建筑-->
+    <string name="CANNOT_CURRENT_CONSTRUCTION">515</string>
+    <string name="s515">不可通行建筑</string>
+    <!--架空建筑-->
+    <string name="CAN_CURRENT_CONSTRUCTION">516</string>
+    <string name="s516">架空建筑</string>
+    <!--立柱-->
+    <string name="PILLAR">517</string>
+    <string name="s517">立柱</string>
+    <!--铺筑硬地-->
+    <string name="PAVING_HARD_LAND">518</string>
+    <string name="s518">铺筑硬地</string>
+    <!--私宅、 禁区-->
+    <string name="PESTRICTED_ZONE">519</string>
+    <string name="s519">私宅、 禁区</string>
+    <!--阶梯-->
+    <string name="LADDER">520</string>
+    <string name="s520">阶梯</string>
+    <!--不可跨越管道-->
+    <string name="CANNOT_CURRENT_PIPRLINE">521</string>
+    <string name="s521">不可跨越管道</string>
+    <!--可跨越管道-->
+    <string name="CAN_CURRENT_PIPRLINE">522</string>
+    <string name="s522">可跨越管道</string>
+    <!--高塔-->
+    <string name="HIGH_TOWER">523</string>
+    <string name="s523">高塔</string>
+    <!--小塔-->
+    <string name="SMALL_TOWER">524</string>
+    <string name="s524">小塔</string>
+    <!--饲料架-->
+    <string name="FEED_FRMAE">525</string>
+    <string name="s525">饲料架</string>
+    <!--石碑-->
+    <string name="STONE_TABLET">525</string>
+    <string name="s526">石碑</string>
+    <!--特殊人造物-->
+    <string name="SPECIAL_PEOPLE_CREATION">527</string>
+    <string name="s527">特殊人造物</string>
+
+    <!--Technology sign 技术符号：6 signs-->
+
+    <!--磁北线-->
+    <string name="NORTH_LINE">601</string>
+    <string name="s601">磁北线</string>
+    <!--辅助线-->
+    <string name="AUXILIARY_LINE">602</string>
+    <string name="s602">辅助线</string>
+    <!--必须通过点-->
+    <string name="PASS_DOT">603</string>
+    <string name="s603">必须通过点</string>
+    <!--临时建立区、 禁区-->
+    <string name="TEMPORARY_BUILD_AREA">604</string>
+    <string name="s604">临时建立区、 禁区</string>
+    <!--医疗站-->
+    <string name="MEDICAL_TREATMENT_SITE">605</string>
+    <string name="s605">医疗站</string>
+    <!--水站-->
+    <string name="WATER_SITE">606</string>
+    <string name="s606">水站</string>
+
+   <!--
+        Here are 4 draw type:
+        one is point type,
+        two is straight line type,
+        three is curve line type,
+        four is free line type.
+
+        point type only have one point,
+        straight line default the draw or walk is straight,
+        curve line type means Bézier curve,
+        free line type means is worker's deviation
+        from the original direction of 2 degrees add a points
+    -->
+    <!--点绘制-->
+    <string name="POINT">1</string>
+    <!--直线绘制-->
+    <string name="LINE_STRAIGHT">2</string>
+    <!--曲线绘制-->
+    <string name="LINE_CURVE">3</string>
+    <!--自由线绘制-->
+    <string name="LINE_FREE">4</string>
+
+    <string name="EDIT_TYPE_NAME_0">对象整体操作</string>
+    <string name="EDIT_TYPE_NAME_1">对象点位操作</string>
+    <string name="EDIT_TYPE_NAME_2">连接对象首尾</string>
+    <string name="EDIT_TYPE_NAME_3">合并相同对象</string>
+    <string name="EDIT_TYPE_NAME_4">旋转当前对象</string>
+    <string name="EDIT_TYPE_NAME_5">删除当前对象</string>
+    <string name="EDIT_TYPE_NAME_6">替换当前符号</string>
+    <string name="EDIT_TYPE_NAME_7">翻转当前对象</string>
+    <string name="EDIT_TYPE_NAME_8">线型对象截断</string>
+    <string name="EDIT_TYPE_NAME_9">面状对象开洞</string>
+</resources>

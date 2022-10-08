@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color_primary_dark_1">#1b80cb</color>
+    <color name="theme_color_primary_1">#368dd3</color>
+    <color name="theme_color_accent_1">#81d4fa</color>
+
+    <color name="theme_color_primary_dark">#00796b</color>
+    <color name="theme_color_primary">#009688</color>
+    <color name="theme_color_accent">#b2dfdb</color>
+    
+    <color name="theme_color_secondary_dark">#f57c00</color>
+    <color name="theme_color_secondary">#ff9800</color>
+
+
+    <!--Here means main color or the color in the image-->
+    <color name="blue_button_text_white">#f1f1f1</color>
+    <color name="white_color">#fff</color>
+
+    <color name="theme_warm">#f75b4f</color>
+    <color name="theme_cold">#4fc3f7</color>
+    <color name="theme_thin_warm">#F8687D</color>
+
+    <color name="dark_grey">#424242</color>
+    
+    <color name="cursor">#4FC3F7</color>
+
+
+    <!--terrain or landform  地形地貌-->
+    <color name="MAIN_CONTOUR_LINE_YELLOW">#912719</color>
+    
+    <!--Wave series 水系-->
+    <color name="MAIN_IMPASSABILITY_WAVE_BLUE">#2C7BA6</color>
+    <color name="MAIN_PASSABILITY_WAVE_BLUE">#ABE0EF</color>
+    <color name="MAIN_SIMPLE_WAVE_BLUE">#1B65A3</color>
+
+    <!--vegetation 植被-->
+    <color name="MAIN_CLEAR_LAND_GREEN">#FFE853</color>
+    <color name="MAIN_RARE_TREE_CLEAR_LAND_GREEN">#FFFFFF</color>
+    <color name="MAIN_COMPLEX_CLEAR_LAND_GREEN">#FFDA98</color>
+    <color name="MAIN_EASY_RUN_WOODS_GREEN">#FFFFFF</color>
+    <color name="MAIN_JOGGING_WOODS_GREEN">#BFF2B5</color>
+    <color name="MAIN_SLOW_WOODS_GREEN">#83E66F</color>
+    <color name="MAIN_DIFFICULT_CURRENT_WOODS_GREEN">#35D914</color>
+    <color name="MAIN_CANNOT_WOODS_GREEN">#156606</color>
+    <color name="MAIN_ONE_WAY_CAN_RUN_WOODS_GREEN">#35D914</color>
+    <color name="MAIN_FRUIT_PLOUGH_GREEN">#FFE853</color>
+    <color name="MAIN_EXTRUDE_TREE_GREEN">#35D914</color>
+
+    <!--Rock or stone 岩石与石块-->
+    <color name="MAIN_RLINT_BLACK">#000000</color>
+    <color name="MAIN_SANDY_YELLOW">#FFDA98</color>
+    <color name="MAIN_STONE_PLATFROM_BLACK">#ACACAC</color>
+
+    <!--Artificial characteristic object 人造特征物-->
+    <color name="MAIN_ROAD_YELLOW">#E6A88B</color>
+    <color name="MAIN_ARTIFICIAL_CHARACTERISTIC_OBJECT_BLACK">#000000</color>
+    <color name="MAIN_CANNOT_CURRENT_CONSTRUCTION_BLACK">#777777</color>
+    <color name="MAIN_CAN_CURRENT_CONSTRUCTION_BLACK">#CDCDCD</color>
+    <color name="MAIN_PAVING_HARD_LAND_BLACK">#E19877</color>
+    <color name="MAIN_PESTRICTED_ZONE_BLACK">#95AF1A</color>
+    <color name="MAIN_LADDER_BLACK">#F1CBBA</color>
+
+    <!--Technology sign 技术符号-->
+    <color name="MAIN_TECHNOLOGY_SIGN_PURPLE">#FF00FF</color>
+    <color name="MAIN_NORTHERN_LINE_BLUE">#1BA7CF</color>
+    <color name="AUXILIARY_LINE_BLACK">#000000</color>
+
+    <!--Here means auxiliary color or frame color-->
+
+    <!--Wave series 水系-->
+    <color name="AUXILIARY_WAVE_BLACK">#000000</color>
+
+    <!--vegetation 植被-->
+    <color name="AUXILIARY_RARE_TREE_CLEAR_LAND_GREEN">#FFE853</color>
+    <color name="AUXILIARY_RARE_TREE_ANDMESSY_CLEAR_LAND_WIRTE">#FFFFFF</color>
+    <color name="AUXILIARY_ONE_WAY_CAN_RUN_FRUIT_BEARING_FOREST_GREEN">#35D914</color>
+    <color name="AUXILIARY_FRUIT_BEARING_FOOREST_GREEN">#35D914</color>
+    <color name="AUXILIARY_PLOUGH_BLACK">#000000</color>
+
+    <!--Rock or stone 岩石与石块-->
+    <color name="AUXILIARY_SANDY_BLACK">#000000</color>
+
+    <!--Artificial characteristic object 人造特征物-->
+    <color name="AUXILIARY_TRACK_YELLOW">#777777</color>
+    <color name="AUXILIARY_CONSTRUCTION_BLACK">#000000</color>
+    <color name="AUXILIARY_CONSTRUCTION_WHITE">#ffffff</color>
+
+</resources>

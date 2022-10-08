@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.crazyforcode.oakhouse.gcad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+
+        <activity
+            android:name="com.crazyforcode.oakhouse.gcad.window.ProgramEntry"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".window.NewProjectActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".window.AlignActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/model_init"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.MapScaleActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity
+            android:name=".window.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            tools:ignore="InnerclassSeparator">
+        </activity>
+
+        <activity android:name=".others.surfaces.LegendPicker"
+            android:label="@string/legend_picker_title"
+            android:theme="@style/AppcompatDialogTheme"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity
+            android:name=".window.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator">
+        </activity>
+
+        <activity android:name=".others.surfaces.SearchAllProjects"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.MapRevision"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.CompassAdjust"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity
+            android:name=".others.surfaces.CompassSensitivity"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.ExternalLocking"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.ExternalChooseAgain"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity
+            android:name=".others.surfaces.ComparisionShow"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.IntroductionFunctions"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.SupportFeedback"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.PrivacyPolicy"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.AboutUs"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name=".others.surfaces.FinalMapActivity"
+            android:screenOrientation="portrait"
+            android:label="Settings"
+            tools:ignore="InnerclassSeparator"/>
+
+        <activity android:name="net.rdrei.android.dirchooser.DirectoryChooserActivity"
+
+            android:screenOrientation="portrait"
+            android:label="@string/directory_chooser"
+            tools:ignore="InnerclassSeparator"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+    <!--BlueTooth使用权-->
+    <uses-permission android:name="android.permission.BLUETOOTH" tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <!--SD卡文件读写使用权-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!--移动网络使用修改权-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!--上网许可-->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
