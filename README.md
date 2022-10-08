@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-<img src="./illustrations/interfaces.gif" width="50%">
+<img src="./illustrations/interfaces.gif" width="30%">
 </p>
