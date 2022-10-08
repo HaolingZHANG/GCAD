@@ -1,0 +1,46 @@
+*** Creating Trace Output File '.\obj\STM32F103C8T6.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\serial.o"'
+### List of Objects: adding '".\obj\sys_init.o"'
+### List of Objects: adding '".\obj\delay.o"'
+### List of Objects: adding '".\obj\infrared.o"'
+### List of Objects: adding '".\obj\dataprotocol.o"'
+### List of Objects: adding '".\obj\pitchrollyaw.o"'
+### List of Objects: adding '".\obj\iic1_leftleg.o"'
+### List of Objects: adding '".\obj\iic2_rightleg.o"'
+### List of Objects: adding '".\obj\iic3_body.o"'
+### List of Objects: adding '".\obj\iic4_foot.o"'
+### List of Objects: adding '".\obj\prdsensordeal.o"'
+### List of Objects: adding '".\obj\motionsta.o"'
+### List of Objects: adding '".\obj\xyz_algo.o"'
+### List of Objects: adding '".\obj\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_adc.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_i2c.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj\stm32f10x_flash.o"'
+### List of Objects: adding '".\obj\inv_mpu.o"'
+### List of Objects: adding '".\obj\inv_mpu_dmp_motion_driver.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\main.o" ".\obj\stm32f10x_it.o" ".\obj\serial.o" ".\obj\sys_init.o" ".\obj\delay.o" ".\obj\infrared.o" ".\obj\dataprotocol.o" ".\obj\pitchrollyaw.o" ".\obj\iic1_leftleg.o" ".\obj\iic2_rightleg.o" ".\obj\iic3_body.o" ".\obj\iic4_foot.o" ".\obj\prdsensordeal.o" ".\obj\motionsta.o" ".\obj\xyz_algo.o" ".\obj\startup_stm32f10x_md.o" ".\obj\core_cm3.o" ".\obj\system_stm32f10x.o" ".\obj\misc.o" ".\obj\stm32f10x_adc.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_i2c.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_dma.o" ".\obj\stm32f10x_flash.o" ".\obj\inv_mpu.o" ".\obj\inv_mpu_dmp_motion_driver.o" --library_type=microlib --strict --scatter ".\obj\STM32F103C8T6.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\STM32F103C8T6.map" -o ".\obj\STM32F103C8T6.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\STM32F103C8T6.axf'
+### ADS-LD Command File: '.\obj\STM32F103C8T6.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\STM32F103C8T6.lnp', Handle=0x00000790
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\STM32F103C8T6.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
